@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#menu ul {
+    list-style-type: none;
+    display: inline-flex;
+    background-color: white;
+    width: 500px;
+    border-radius: 30px;
+    text-align: center;
+}
+nav ul li {
+    margin-left: 30px;
+}
+li:hover {
+    font-size: 20px;
+    background-color: lightseagreen;
+    color: black;
+    border:solid black 3px;
+    box-sizing: 30px;
+}
+ul {
+    width: 50%;
+    margin: 0 auto;
+}
+li a {
+    text-decoration: none;
+}
+body {
+    background-color: rgb(253, 215, 220);
+}
+#topo h1{
+    color: red;
+    text-align: center;
+}
+#topo h2{
+    text-align: center;
+}
+.destaque h2{
+    color: blue;
+}
+#destaque {
+    float: left;
+}
+p{
+    font-weight: bold;
+}
+img {
+    margin-left: 15%;
+    margin-top: 6%;
+    width: 60%;
+}
+footer {
+    float: left;
+    clear: both;
+}
+section{
+    margin-left: 4%;
+    margin-top: 4%;
+    float: left;
+    background-color: lightblue;
+    width: 20%;
+    height: 300px;
+    border-radius: 2%;
+}
+@media (max-width: 990px) {
+    section {
+        background-color: lightblue;
+        width: 15%;
+        height: 260px;
+    }
+}
+@media (max-width: 780px) {
+    section {
+        background-color: lightblue;
+        width: 30%;
+        height: 210px;
+    }
+    img {
+        width: 36%;
+    }
+}
+@media (max-width: 580px) {
+    section {
+        background-color: lightblue;
+        width: 20%;
+        height: 170px;
+    }
+}
